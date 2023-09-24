@@ -1,38 +1,48 @@
 .list {
-    margin: 0 auto;
-    list-style: none;
-    padding: 0;
-    width: 400px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  width: 70%;
 }
 
 .header {
-    text-align: center;
+  text-align: center;
 }
 
 .listItem {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  background-color: #57e54d;
+  padding: 8px;
+  line-height: 1.8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-color: transparent;
+  border-radius: 4px;
+  width: 100%;
 }
 
 .button {
-    padding: 5px 10px;
-    background-color: #ff0000;
-    /* Красный цвет кнопки (пример) */
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  width: 50px;
+  background: #e54d4d;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover {
-    background-color: #cc0000;
-    /* Красный цвет кнопки при наведении (пример) */
+.button:hover,
+.button.button:focus {
+  background: #404bbf;
 }
